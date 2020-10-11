@@ -1,5 +1,7 @@
 # EasyStatisticViewer
 
+## Concept
+
 "EasyStatisticViewer" soft for dummies.
 
 * Easy load data
