@@ -3,13 +3,15 @@
 
 #include <QObject>
 
+#include "basecanvas.h"
+
 class BaseGraphicalObject : public QObject
 {
     Q_OBJECT
 public:
     explicit BaseGraphicalObject(QObject *parent = nullptr);
 
-    virtual void draw() = 0;
+    virtual void draw(BaseCanvas & canvas) = 0;
 
 };
 
