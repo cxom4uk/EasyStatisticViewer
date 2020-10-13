@@ -13,7 +13,7 @@ class BaseGraphicalObject : public QObject
 public:
     explicit BaseGraphicalObject(QObject *parent = nullptr);
 
-    virtual void draw(BaseCanvas & canvas) = 0;
+    virtual void draw(BaseCanvas & canvas) const = 0;
 
 };
 
