@@ -5,6 +5,8 @@
 
 #include "basecanvas.h"
 
+namespace easy {
+
 class BaseGraphicalObject : public QObject
 {
     Q_OBJECT
@@ -14,5 +16,7 @@ public:
     virtual void draw(BaseCanvas & canvas) = 0;
 
 };
+
+}
 
 #endif // BASEGRAPHICALOBJECT_H

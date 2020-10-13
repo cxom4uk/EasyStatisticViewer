@@ -15,15 +15,12 @@ HEADERS += \
     graphical-objects/basegraphicalobject.h
 
 SOURCES += \
-        canvases/basecanvas.cpp \
-        graphical-objects/basegraphicalobject.cpp \
-        main.cpp
+    canvases/basecanvas.cpp \
+    graphical-objects/basegraphicalobject.cpp \
+    main.cpp
 
-RESOURCES += qml.qrc
+RESOURCES += \
+    qml.qrc
 
 TRANSLATIONS += \
     EasyStatisticViewer_ru_RU.ts
-
-qnx: target.path = /tmp/$${TARGET}/bin
-else: unix:!android: target.path = /opt/$${TARGET}/bin
-!isEmpty(target.path): INSTALLS += target

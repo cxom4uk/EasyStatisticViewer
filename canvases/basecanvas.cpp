@@ -1,6 +1,6 @@
 #include "basecanvas.h"
 
-BaseCanvas::BaseCanvas(QWidget *parent) : QWidget(parent)
+easy::BaseCanvas::BaseCanvas(QWidget *parent) : QWidget(parent)
 {
 
 }

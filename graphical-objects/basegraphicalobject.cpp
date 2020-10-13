@@ -1,6 +1,6 @@
 #include "basegraphicalobject.h"
 
-BaseGraphicalObject::BaseGraphicalObject(QObject *parent) : QObject(parent)
+easy::BaseGraphicalObject::BaseGraphicalObject(QObject *parent) : QObject(parent)
 {
 
 }
